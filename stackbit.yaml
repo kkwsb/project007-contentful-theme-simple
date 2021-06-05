@@ -2,6 +2,7 @@
 # needed to make your theme, or project, work with Stackbit. For more info about
 # stackbit.yaml configuration visit https://www.stackbit.com/docs/stackbit-yaml/
 stackbitVersion: ~0.3.0
+nodeVersion: 14
 ssgName: gatsby
 cmsName: contentful
 
