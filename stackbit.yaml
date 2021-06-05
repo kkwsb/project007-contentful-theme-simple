@@ -27,6 +27,6 @@ models:
   flexible-page:
     type: page
     urlPath: '/{slug}'
-  post:
+  blog-post:
     type: page
     urlPath: '/{slug}'
