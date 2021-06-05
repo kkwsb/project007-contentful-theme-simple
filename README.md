@@ -1,0 +1,3 @@
+[Deploy your own copy with Stackbit](https://app.stackbit.com/create?theme=https://github.com/kkwsb/project007-contentful-theme-simple).
+
+<p style="text-align: center;"><a href="https://app.stackbit.com/create?theme=https://github.com/kkwsb/project007-contentful-theme-simple" style="margin: auto; border: none;"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg" style="border: none; padding: 0;"/></a></p>
