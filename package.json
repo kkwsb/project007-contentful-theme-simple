@@ -1,0 +1,37 @@
+{
+    "name": "gatsby-contentful-tailwind-sectioned",
+    "version": "0.0.1",
+    "author": {
+        "name": "Katie Kodes",
+        "url": "https://katiekodes.com"
+    },
+    "main": ".eleventy.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kkwsb/gatsby-contentful-tailwind-sectioned.git"
+    },
+    "scripts": {
+        "build": "cross-env NODE_ENV=production gatsby build",
+        "dev": "cross-env NODE_ENV=development gatsby develop",
+        "develop": "cross-env NODE_ENV=development gatsby develop",
+        "serve": "cross-env NODE_ENV=production gatsby serve",
+        "start": "npm run develop"
+    },
+    "dependencies": {
+        "@tailwindcss/typography": "latest",
+        "autoprefixer": "latest",
+        "cross-env": "latest",
+        "gatsby": "latest",
+        "gatsby-plugin-postcss": "latest",
+        "gatsby-plugin-react-helmet": "latest",
+        "gatsby-source-contentful": "latest",
+        "gatsby-source-filesystem": "latest",
+        "gatsby-transformer-remark": "latest",
+        "postcss": "latest",
+        "prop-types": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "react-helmet": "latest",
+        "tailwindcss": "latest"
+    }
+}
