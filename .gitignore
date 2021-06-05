@@ -1,0 +1,45 @@
+# Don't try to do inline comments.  Things break.
+
+# Ignore secrets
+/.env
+/*.env
+/*.env-*
+
+# Ignore misc
+.ignoreme
+/.ignoreme
+/.ignoreme/**
+
+# Ignore clutter from Netlify CLI
+.netlify
+/.netlify
+/.netlify/**
+
+# Ignore "node_modules"
+/node_modules/
+/node_modules/**
+
+# Ignore a variety of common static output folders
+public
+/public/
+/public/**
+dist
+/dist/
+/dist/**
+build
+/build/
+/build/**
+.next
+/.next/
+/.next/**
+_site
+/_site/
+/_site/**
+
+# Ignore package-lock.json; let people generate their own
+package-lock.json
+
+# Ignore clutter from Gatsby
+.cache
+/.cache
+/.cache/**
