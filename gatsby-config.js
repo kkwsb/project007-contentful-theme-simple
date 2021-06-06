@@ -8,6 +8,23 @@ if (!CONTENTFUL_SPACE_ID || !CONTENTFUL_ACCESS_TOKEN) {
 }
 
 module.exports = {
+    siteMetadata: {
+        title: 'Components',
+        menuLinks:[
+            {
+                name:'Home',
+                link:'/',
+            },
+            {
+                name:'Blog',
+                link:'/blog/',
+            },
+            {
+                name:'Contact',
+                link:'/contact/',
+            },
+        ],
+    },
     plugins: [
         {
             resolve: `gatsby-source-filesystem`,
