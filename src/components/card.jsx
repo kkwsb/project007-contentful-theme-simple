@@ -13,17 +13,17 @@ export default function Card({ card }) {
         />
       )}
       {!!title && (
-        <h3 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
+        <h2 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
           {!!url && (
             <Link
               to={url}
-              className="transition-colors duration-200 hover:text-azimuth-blue-700 focus:text-azimuth-blue-700"
+              className="transition-colors duration-200 hover:text-azimuth-blue-500 focus:text-azimuth-blue-500"
             >
               {title}
             </Link>
           )}
           {!url && title}
-        </h3>
+        </h2>
       )}
     </div>
   );
