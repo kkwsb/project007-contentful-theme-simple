@@ -1,9 +1,8 @@
-import React from "react"
-import { Helmet } from "react-helmet"
-import PropTypes from "prop-types"
+import React from "react";
+import { Helmet } from "react-helmet";
+import PropTypes from "prop-types";
 
 const SiteMetadata = ({ title, description, image }) => {
-
   return (
     <Helmet
       defer={false}
@@ -17,19 +16,22 @@ const SiteMetadata = ({ title, description, image }) => {
       <meta property="og:type" content="website" />
       <meta property="og:title" content={title} />
       <meta property="og:locale" content="en-US" />
-      <meta property="og:site_name" content="You forgot to provide a site title" />
+      <meta
+        property="og:site_name"
+        content="You forgot to provide a site title"
+      />
       <meta property="og:image" content={image} />
       <meta property="og:description" content={description} />
       <meta name="twitter:card" content="summary" />
       <meta name="twitter:image" content={image} />
     </Helmet>
-  )
-}
+  );
+};
 
 SiteMetadata.propTypes = {
   title: PropTypes.string.isRequired,
   description: PropTypes.string,
   image: PropTypes.string,
-}
+};
 
-export default SiteMetadata
+export default SiteMetadata;

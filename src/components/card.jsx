@@ -4,7 +4,6 @@ import React from "react";
 export default function Card({ card }) {
   const { title, image, imageAltText, url } = card;
   return (
-
     <div>
       {!!image && (
         <img
@@ -15,7 +14,14 @@ export default function Card({ card }) {
       )}
       {!!title && (
         <h3 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-          {!!url && <Link to={url} className="transition-colors duration-200 hover:text-indigo-700 focus:text-indigo-700">{title}</Link>}
+          {!!url && (
+            <Link
+              to={url}
+              className="transition-colors duration-200 hover:text-indigo-700 focus:text-indigo-700"
+            >
+              {title}
+            </Link>
+          )}
           {!url && title}
         </h3>
       )}

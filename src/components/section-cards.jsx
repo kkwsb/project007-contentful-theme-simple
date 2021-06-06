@@ -7,9 +7,12 @@ export default function SectionCards({ section }) {
   if (!title && (!cards || cards.length === 0)) {
     return "";
   }
-  const CardComponents = !!cards && cards.length > 0 && cards.map((card) => {
-    return <Card card={card} />;
-  });
+  const CardComponents =
+    !!cards &&
+    cards.length > 0 &&
+    cards.map((card) => {
+      return <Card card={card} />;
+    });
   return (
     <section className="py-8 px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
       {!!title && (

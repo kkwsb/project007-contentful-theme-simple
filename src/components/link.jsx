@@ -1,4 +1,4 @@
-import { Link as GatsbyLink } from "gatsby"
+import { Link as GatsbyLink } from "gatsby";
 import React from "react";
 
 // Since DOM elements <a> cannot receive activeClassName
@@ -21,13 +21,13 @@ const Link = ({ children, to, activeClassName, partiallyActive, ...other }) => {
       >
         {children}
       </GatsbyLink>
-    )
+    );
   }
   return (
     <a href={to} target="_blank" rel="noopener noreferrer" {...other}>
       {children}
     </a>
-  )
-}
+  );
+};
 
-export default Link
+export default Link;
