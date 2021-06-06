@@ -906,7 +906,7 @@
       },
       "fields": {
         "text": {
-          "en-US": "Try free"
+          "en-US": "Dream big"
         },
         "url": {
           "en-US": "https://jamstack.new"
@@ -1260,7 +1260,7 @@
       },
       "fields": {
         "title": {
-          "en-US": "The Title of the Call to Action Block"
+          "en-US": "Here is a \"call to action\" page section"
         },
         "subtitle": {
           "en-US": "This is a subtitle for the call to action block."
@@ -1410,10 +1410,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "But what if there are 2 CTA sections on a page?"
+          "en-US": "Here is another"
         },
         "subtitle": {
-          "en-US": "There could be"
+          "en-US": "Put two back-to-back, if you like, just to see how flexible sectioned page builders are."
         },
         "actions": {
           "en-US": [
