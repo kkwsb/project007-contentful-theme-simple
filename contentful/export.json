@@ -6,13 +6,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
-        "id": "section-hero",
+        "id": "section-cta",
         "type": "ContentType",
-        "createdAt": "2021-06-05T19:59:24.243Z",
-        "updatedAt": "2021-06-05T19:59:26.494Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,36 +18,11 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:26.494Z",
-        "firstPublishedAt": "2021-06-05T19:59:26.494Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
+        "publishedVersion": 1
       },
       "displayField": "title",
-      "name": "Section:  Hero",
-      "description": "A \"hero\" flexible-page section",
+      "name": "Section:  Call To Action",
+      "description": "A \"call to action\" flexible-page section",
       "fields": [
         {
           "id": "title",
@@ -74,27 +47,32 @@
           "omitted": false
         },
         {
-          "id": "image",
-          "name": "Image",
-          "type": "Link",
+          "id": "actions",
+          "name": "Actions",
+          "type": "Array",
           "localized": false,
           "required": true,
           "validations": [
+            {
+              "size": {
+                "min": 1,
+                "max": null
+              }
+            }
           ],
           "disabled": false,
           "omitted": false,
-          "linkType": "Asset"
-        },
-        {
-          "id": "imageAltText",
-          "name": "Image alt text",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
+          "items": {
+            "type": "Link",
+            "validations": [
+              {
+                "linkContentType": [
+                  "action"
+                ]
+              }
+            ],
+            "linkType": "Entry"
+          }
         }
       ]
     },
@@ -104,111 +82,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "card",
-        "type": "ContentType",
-        "createdAt": "2021-06-05T19:59:24.245Z",
-        "updatedAt": "2021-06-05T19:59:27.044Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:27.044Z",
-        "firstPublishedAt": "2021-06-05T19:59:27.044Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Card",
-      "description": "A \"card\"-looking component meant to go into a \"card gallery\" flexible-page section",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "subtitle",
-          "name": "Subtitle",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "image",
-          "name": "Image",
-          "type": "Link",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
-        },
-        {
-          "id": "imageAltText",
-          "name": "Image alt text",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "action",
         "type": "ContentType",
-        "createdAt": "2021-06-05T19:59:24.253Z",
-        "updatedAt": "2021-06-05T19:59:25.507Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -216,32 +94,7 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:25.507Z",
-        "firstPublishedAt": "2021-06-05T19:59:25.507Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
+        "publishedVersion": 1
       },
       "displayField": "text",
       "name": "Action",
@@ -283,129 +136,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "post",
-        "type": "ContentType",
-        "createdAt": "2021-06-05T19:59:24.269Z",
-        "updatedAt": "2021-06-05T19:59:27.624Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:27.624Z",
-        "firstPublishedAt": "2021-06-05T19:59:27.624Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
-      },
-      "displayField": "title",
-      "name": "Blog Post",
-      "description": "A blog post (which will be rendered as an individual page)",
-      "fields": [
-        {
-          "id": "title",
-          "name": "Title",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "slug",
-          "name": "Slug",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "unique": true
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "image",
-          "name": "Image",
-          "type": "Link",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false,
-          "linkType": "Asset"
-        },
-        {
-          "id": "imageAltText",
-          "name": "Image alt text",
-          "type": "Symbol",
-          "localized": false,
-          "required": true,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
-        {
-          "id": "body",
-          "name": "Post Body",
-          "type": "RichText",
-          "localized": false,
-          "required": true,
-          "validations": [
-            {
-              "nodes": {
-              }
-            }
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "flexible-page",
         "type": "ContentType",
-        "createdAt": "2021-06-05T19:59:24.281Z",
-        "updatedAt": "2021-06-05T19:59:26.025Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -413,32 +148,7 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:26.025Z",
-        "firstPublishedAt": "2021-06-05T19:59:26.025Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
+        "publishedVersion": 1
       },
       "displayField": "title",
       "name": "Flexible Page",
@@ -528,13 +238,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
-        "id": "section-cta",
+        "id": "section-hero",
         "type": "ContentType",
-        "createdAt": "2021-06-05T19:59:24.292Z",
-        "updatedAt": "2021-06-05T19:59:24.885Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -542,36 +250,11 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:24.885Z",
-        "firstPublishedAt": "2021-06-05T19:59:24.885Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
+        "publishedVersion": 1
       },
       "displayField": "title",
-      "name": "Section:  Call To Action",
-      "description": "A \"call to action\" flexible-page section",
+      "name": "Section:  Hero",
+      "description": "A \"hero\" flexible-page section",
       "fields": [
         {
           "id": "title",
@@ -596,32 +279,187 @@
           "omitted": false
         },
         {
-          "id": "actions",
-          "name": "Actions",
-          "type": "Array",
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "imageAltText",
+          "name": "Image alt text",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "card",
+        "type": "ContentType",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1
+      },
+      "displayField": "title",
+      "name": "Card",
+      "description": "A \"card\"-looking component meant to go into a \"card gallery\" flexible-page section",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "subtitle",
+          "name": "Subtitle",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "imageAltText",
+          "name": "Image alt text",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "post",
+        "type": "ContentType",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1
+      },
+      "displayField": "title",
+      "name": "Blog Post",
+      "description": "A blog post (which will be rendered as an individual page)",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
           "localized": false,
           "required": true,
           "validations": [
             {
-              "size": {
-                "min": 1,
-                "max": null
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "image",
+          "name": "Image",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "imageAltText",
+          "name": "Image alt text",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "body",
+          "name": "Post Body",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "nodes": {
               }
             }
           ],
           "disabled": false,
-          "omitted": false,
-          "items": {
-            "type": "Link",
-            "validations": [
-              {
-                "linkContentType": [
-                  "action"
-                ]
-              }
-            ],
-            "linkType": "Entry"
-          }
+          "omitted": false
         }
       ]
     }
@@ -635,31 +473,14 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "e92nag9kissj",
+            "id": "zyxcba",
             "type": "Link",
             "linkType": "Space"
           }
         },
-        "version": 2,
-        "createdAt": "2021-06-05T19:59:26.635Z",
-        "createdBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2021-06-05T19:59:28.900Z",
-        "updatedBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
         "contentType": {
           "sys": {
-            "id": "section-hero",
+            "id": "section-cta",
             "type": "Link",
             "linkType": "ContentType"
           }
@@ -676,7 +497,7 @@
         {
           "fieldId": "title",
           "settings": {
-            "helpText": "What should the title of this card say?"
+            "helpText": "What do you want to call this CTA section?"
           },
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
@@ -684,27 +505,20 @@
         {
           "fieldId": "subtitle",
           "settings": {
-            "helpText": "What should the subtitle of this card say?"
+            "helpText": "What else should this CTA section say on the whole?"
           },
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "image",
+          "fieldId": "actions",
           "settings": {
-            "helpText": "What image should this card display?",
+            "helpText": "What \"actions\" do you want to call a visitor to undertake?",
+            "bulkEditing": true,
             "showLinkEntityAction": true,
             "showCreateEntityAction": true
           },
-          "widgetId": "assetLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "imageAltText",
-          "settings": {
-            "helpText": "Make sure people who can't see the image know what it's an image of"
-          },
-          "widgetId": "singleLine",
+          "widgetId": "entryLinksEditor",
           "widgetNamespace": "builtin"
         }
       ]
@@ -715,106 +529,9 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "e92nag9kissj",
+            "id": "zyxcba",
             "type": "Link",
             "linkType": "Space"
-          }
-        },
-        "version": 2,
-        "createdAt": "2021-06-05T19:59:27.105Z",
-        "createdBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2021-06-05T19:59:30.719Z",
-        "updatedBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "card",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title",
-          "settings": {
-            "helpText": "What should the title of this card say?"
-          },
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "subtitle",
-          "settings": {
-            "helpText": "What should the subtitle of this card say?"
-          },
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "image",
-          "settings": {
-            "helpText": "What image should this card display?",
-            "showLinkEntityAction": true,
-            "showCreateEntityAction": true
-          },
-          "widgetId": "assetLinkEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "imageAltText",
-          "settings": {
-            "helpText": "Make sure people who can't see the image know what it's an image of"
-          },
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "e92nag9kissj",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 2,
-        "createdAt": "2021-06-05T19:59:25.564Z",
-        "createdBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2021-06-05T19:59:28.396Z",
-        "updatedBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
           }
         },
         "contentType": {
@@ -857,87 +574,9 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "e92nag9kissj",
+            "id": "zyxcba",
             "type": "Link",
             "linkType": "Space"
-          }
-        },
-        "version": 1,
-        "createdAt": "2021-06-05T19:59:27.728Z",
-        "createdBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2021-06-05T19:59:27.728Z",
-        "updatedBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "post",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "controls": [
-        {
-          "fieldId": "title"
-        },
-        {
-          "fieldId": "slug"
-        },
-        {
-          "fieldId": "image"
-        },
-        {
-          "fieldId": "imageAltText"
-        },
-        {
-          "fieldId": "body"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "e92nag9kissj",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 2,
-        "createdAt": "2021-06-05T19:59:26.129Z",
-        "createdBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2021-06-05T19:59:30.604Z",
-        "updatedBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
           }
         },
         "contentType": {
@@ -1008,31 +647,14 @@
         "type": "EditorInterface",
         "space": {
           "sys": {
-            "id": "e92nag9kissj",
+            "id": "zyxcba",
             "type": "Link",
             "linkType": "Space"
           }
         },
-        "version": 2,
-        "createdAt": "2021-06-05T19:59:25.028Z",
-        "createdBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2021-06-05T19:59:30.612Z",
-        "updatedBy": {
-          "sys": {
-            "id": "79RF7L5UjkmFJrVCSPXsve",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
         "contentType": {
           "sys": {
-            "id": "section-cta",
+            "id": "section-hero",
             "type": "Link",
             "linkType": "ContentType"
           }
@@ -1049,7 +671,7 @@
         {
           "fieldId": "title",
           "settings": {
-            "helpText": "What do you want to call this CTA section?"
+            "helpText": "What should the title of this card say?"
           },
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
@@ -1057,23 +679,193 @@
         {
           "fieldId": "subtitle",
           "settings": {
-            "helpText": "What else should this CTA section say on the whole?"
+            "helpText": "What should the subtitle of this card say?"
           },
           "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         },
         {
-          "fieldId": "actions",
+          "fieldId": "image",
           "settings": {
-            "helpText": "What \"actions\" do you want to call a visitor to undertake?",
-            "bulkEditing": true,
+            "helpText": "What image should this card display?",
             "showLinkEntityAction": true,
             "showCreateEntityAction": true
           },
-          "widgetId": "entryLinksEditor",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "imageAltText",
+          "settings": {
+            "helpText": "Make sure people who can't see the image know what it's an image of"
+          },
+          "widgetId": "singleLine",
           "widgetNamespace": "builtin"
         }
       ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zyxcba",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blog",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "What should the title of this card say?"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "settings": {
+            "helpText": "What should the \"slug\" (final URL fragment) of this page's URL be?"
+          },
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "settings": {
+            "helpText": "What image should this card display?",
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "imageAltText",
+          "settings": {
+            "helpText": "Make sure people who can't see the image know what it's an image of"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "body",
+          "settings": {
+            "helpText": "What would you like your blog post to say?"
+          },
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "zyxcba",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "card",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "settings": {
+            "helpText": "What should the title of this card say?"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "subtitle",
+          "settings": {
+            "helpText": "What should the subtitle of this card say?"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "image",
+          "settings": {
+            "helpText": "What image should this card display?",
+            "showLinkEntityAction": true,
+            "showCreateEntityAction": true
+          },
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "imageAltText",
+          "settings": {
+            "helpText": "Make sure people who can't see the image know what it's an image of"
+          },
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master"
+          }
+        }
+      }
     }
   ],
   "entries": [
@@ -1087,13 +879,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "actiontryfreejamstacknew",
         "type": "Entry",
-        "createdAt": "2021-06-05T19:59:55.347Z",
-        "updatedAt": "2021-06-05T19:59:57.046Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1102,31 +892,10 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:57.046Z",
-        "firstPublishedAt": "2021-06-05T19:59:57.046Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "version": 1,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1154,13 +923,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
-        "id": "ctasectionfirstonehastwoentries",
+        "id": "actionlearnmorestackbitblog",
         "type": "Entry",
-        "createdAt": "2021-06-05T19:59:55.347Z",
-        "updatedAt": "2021-06-05T19:59:58.002Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1169,31 +936,54 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:58.002Z",
-        "firstPublishedAt": "2021-06-05T19:59:58.002Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
+        "version": 1,
+        "contentType": {
           "sys": {
             "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
+            "linkType": "ContentType",
+            "id": "action"
+          }
+        }
+      },
+      "fields": {
+        "text": {
+          "en-US": "Learn more"
+        },
+        "url": {
+          "en-US": "https://stackbit.com/blog"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
           }
         },
+        "id": "ctasectionfirstonehastwoentries",
+        "type": "Entry",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1239,214 +1029,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "actionlearnmorestackbitblog",
-        "type": "Entry",
-        "createdAt": "2021-06-05T19:59:55.357Z",
-        "updatedAt": "2021-06-05T19:59:57.382Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:57.382Z",
-        "firstPublishedAt": "2021-06-05T19:59:57.382Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "action"
-          }
-        }
-      },
-      "fields": {
-        "text": {
-          "en-US": "Learn more"
-        },
-        "url": {
-          "en-US": "https://stackbit.com/blog"
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "actionwithtexttwostackbit",
-        "type": "Entry",
-        "createdAt": "2021-06-05T19:59:55.378Z",
-        "updatedAt": "2021-06-05T19:59:59.798Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:59.798Z",
-        "firstPublishedAt": "2021-06-05T19:59:59.798Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "action"
-          }
-        }
-      },
-      "fields": {
-        "text": {
-          "en-US": "Action text 2"
-        },
-        "url": {
-          "en-US": "https://stackbit.com"
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "actionwithtextonestackbit",
-        "type": "Entry",
-        "createdAt": "2021-06-05T19:59:55.392Z",
-        "updatedAt": "2021-06-05T19:59:59.396Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:59.396Z",
-        "firstPublishedAt": "2021-06-05T19:59:59.396Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "action"
-          }
-        }
-      },
-      "fields": {
-        "text": {
-          "en-US": "Action text 1"
-        },
-        "url": {
-          "en-US": "https://stackbit.com"
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "sectionherobeoneflyairplane",
         "type": "Entry",
-        "createdAt": "2021-06-05T19:59:55.399Z",
-        "updatedAt": "2021-06-05T19:59:58.469Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1455,31 +1042,10 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:58.469Z",
-        "firstPublishedAt": "2021-06-05T19:59:58.469Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "version": 1,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1519,13 +1085,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "flexiblepageindexhome",
         "type": "Entry",
-        "createdAt": "2021-06-05T19:59:55.405Z",
-        "updatedAt": "2021-06-05T19:59:59.031Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1534,31 +1098,10 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-06-05T19:59:59.031Z",
-        "firstPublishedAt": "2021-06-05T19:59:59.031Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "version": 1,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1616,13 +1159,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
-        "id": "sectionctademonstratingtwoonapage",
+        "id": "flexiblepagecontact",
         "type": "Entry",
-        "createdAt": "2021-06-05T19:59:56.364Z",
-        "updatedAt": "2021-06-05T20:00:00.510Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1631,31 +1172,234 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-06-05T20:00:00.510Z",
-        "firstPublishedAt": "2021-06-05T20:00:00.510Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
+        "version": 1,
+        "contentType": {
           "sys": {
             "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
+            "linkType": "ContentType",
+            "id": "flexible-page"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Contact"
+        },
+        "slug": {
+          "en-US": "contact"
+        },
+        "image": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "imageassetpaperairplaneillustration"
+            }
           }
         },
+        "imageAltText": {
+          "en-US": "A flying paper airplane illustration"
+        },
+        "sections": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "sectionctatwomoreactions"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "sectionctademonstratingtwoonapage"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "sectionctatwomoreactions",
+        "type": "Entry",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "section-cta"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "The Title of the Call to Action Block"
+        },
+        "subtitle": {
+          "en-US": "This is a subtitle for the call to action block."
+        },
+        "actions": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "actionwithtextonestackbit"
+              }
+            },
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "actionwithtexttwostackbit"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "actionwithtextonestackbit",
+        "type": "Entry",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "action"
+          }
+        }
+      },
+      "fields": {
+        "text": {
+          "en-US": "Action text 1"
+        },
+        "url": {
+          "en-US": "https://stackbit.com"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "actionwithtexttwostackbit",
+        "type": "Entry",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "action"
+          }
+        }
+      },
+      "fields": {
+        "text": {
+          "en-US": "Action text 2"
+        },
+        "url": {
+          "en-US": "https://stackbit.com"
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "sectionctademonstratingtwoonapage",
+        "type": "Entry",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1694,13 +1438,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "postbunkbed",
         "type": "Entry",
-        "createdAt": "2021-06-05T19:59:56.410Z",
-        "updatedAt": "2021-06-05T20:00:00.867Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1709,31 +1451,10 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-06-05T20:00:00.867Z",
-        "firstPublishedAt": "2021-06-05T20:00:00.867Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "version": 1,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -1912,13 +1633,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "postwinningpaperairplanecontest",
         "type": "Entry",
-        "createdAt": "2021-06-05T19:59:56.422Z",
-        "updatedAt": "2021-06-05T20:00:01.211Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1927,31 +1646,10 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-06-05T20:00:01.211Z",
-        "firstPublishedAt": "2021-06-05T20:00:01.211Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "version": 1,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2115,110 +1813,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "flexiblepagecontact",
-        "type": "Entry",
-        "createdAt": "2021-06-05T19:59:56.424Z",
-        "updatedAt": "2021-06-05T20:00:02.699Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T20:00:02.699Z",
-        "firstPublishedAt": "2021-06-05T20:00:02.699Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "flexible-page"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Contact"
-        },
-        "slug": {
-          "en-US": "contact"
-        },
-        "image": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "imageassetpaperairplaneillustration"
-            }
-          }
-        },
-        "imageAltText": {
-          "en-US": "A flying paper airplane illustration"
-        },
-        "sections": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "sectionctatwomoreactions"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "sectionctademonstratingtwoonapage"
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "postjustatestblogpost",
         "type": "Entry",
-        "createdAt": "2021-06-05T19:59:56.431Z",
-        "updatedAt": "2021-06-05T20:00:01.626Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2227,31 +1826,10 @@
           }
         },
         "publishedVersion": 1,
-        "publishedAt": "2021-06-05T20:00:01.626Z",
-        "firstPublishedAt": "2021-06-05T20:00:01.626Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "version": 1,
         "contentType": {
           "sys": {
             "type": "Link",
@@ -2304,91 +1882,6 @@
           }
         }
       }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "sectionctatwomoreactions",
-        "type": "Entry",
-        "createdAt": "2021-06-05T19:59:56.439Z",
-        "updatedAt": "2021-06-05T20:00:02.286Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 1,
-        "publishedAt": "2021-06-05T20:00:02.286Z",
-        "firstPublishedAt": "2021-06-05T20:00:02.286Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 2,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "section-cta"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "The Title of the Call to Action Block"
-        },
-        "subtitle": {
-          "en-US": "This is a subtitle for the call to action block."
-        },
-        "actions": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "actionwithtextonestackbit"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Entry",
-                "id": "actionwithtexttwostackbit"
-              }
-            }
-          ]
-        }
-      }
     }
   ],
   "assets": [
@@ -2402,13 +1895,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "imageassetpugdog",
         "type": "Asset",
-        "createdAt": "2021-06-05T19:59:31.074Z",
-        "updatedAt": "2021-06-05T19:59:53.255Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2416,32 +1907,11 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2021-06-05T19:59:53.255Z",
-        "firstPublishedAt": "2021-06-05T19:59:53.255Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
+        "version": 1
       },
       "fields": {
         "title": {
@@ -2452,16 +1922,16 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/e92nag9kissj/imageassetpugdog/e721651343dd743fca4823a923dd5797/dog.svg",
+            "url": "//s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225358/Pug-On-White-01.jpg",
             "details": {
-              "size": 22667,
+              "size": 37837,
               "image": {
-                "width": 729,
-                "height": 486
+                "width": 551,
+                "height": 253
               }
             },
             "fileName": "dog.svg",
-            "contentType": "image/jpeg"
+            "contentType": "image/svg+xml"
           }
         }
       }
@@ -2476,161 +1946,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "imageassethousetree",
-        "type": "Asset",
-        "createdAt": "2021-06-05T19:59:31.076Z",
-        "updatedAt": "2021-06-05T19:59:54.177Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 2,
-        "publishedAt": "2021-06-05T19:59:54.177Z",
-        "firstPublishedAt": "2021-06-05T19:59:54.177Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "House illustration"
-        },
-        "description": {
-          "en-US": "It's a doodle of a house"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/e92nag9kissj/imageassethousetree/b64d77078622c769a722f2233846d8b8/header_house.svg",
-            "details": {
-              "size": 191375,
-              "image": {
-                "width": 940,
-                "height": 625
-              }
-            },
-            "fileName": "header_house.svg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "id": "imageassetfivepinetrees",
-        "type": "Asset",
-        "createdAt": "2021-06-05T19:59:31.077Z",
-        "updatedAt": "2021-06-05T19:59:54.455Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 2,
-        "publishedAt": "2021-06-05T19:59:54.455Z",
-        "firstPublishedAt": "2021-06-05T19:59:54.455Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Pine forest"
-        },
-        "description": {
-          "en-US": "5 pine trees"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/e92nag9kissj/imageassetfivepinetrees/049f84d06abc35f79049aaa5d18970e4/forest.svg",
-            "details": {
-              "size": 47487,
-              "image": {
-                "width": 612,
-                "height": 612
-              }
-            },
-            "fileName": "forest.svg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
         "id": "imageassetpaperairplaneillustration",
         "type": "Asset",
-        "createdAt": "2021-06-05T19:59:31.122Z",
-        "updatedAt": "2021-06-05T19:59:53.737Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2638,32 +1958,11 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2021-06-05T19:59:53.737Z",
-        "firstPublishedAt": "2021-06-05T19:59:53.737Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        }
+        "version": 1
       },
       "fields": {
         "title": {
@@ -2674,16 +1973,16 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/e92nag9kissj/imageassetpaperairplaneillustration/e8ef653e68c0ee839cc8ee53cb5613cf/header_paper_airplane.svg",
+            "url": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwB0dGdIoOn80GDMP1GX0GG_-PryH_eH9HuvjAk_nI3Jqr5hXaNwthd8atfhDWFsvYpkUhUy4&usqp=CAc",
             "details": {
-              "size": 4854,
+              "size": 31996,
               "image": {
-                "width": 196,
-                "height": 196
+                "width": 510,
+                "height": 142
               }
             },
             "fileName": "header_paper_airplane.svg",
-            "contentType": "image/jpeg"
+            "contentType": "image/svg+xml"
           }
         }
       }
@@ -2698,13 +1997,11 @@
           "sys": {
             "type": "Link",
             "linkType": "Space",
-            "id": "e92nag9kissj"
+            "id": "zyxcba"
           }
         },
-        "id": "imageassettwopaperairplanes",
+        "id": "imageassethousetree",
         "type": "Asset",
-        "createdAt": "2021-06-05T19:59:31.157Z",
-        "updatedAt": "2021-06-05T19:59:54.958Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2712,32 +2009,113 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 2,
-        "publishedAt": "2021-06-05T19:59:54.958Z",
-        "firstPublishedAt": "2021-06-05T19:59:54.958Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
         "publishedCounter": 1,
-        "version": 3,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
+        "version": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "House illustration"
+        },
+        "description": {
+          "en-US": "It's a doodle of a house"
+        },
+        "file": {
+          "en-US": {
+            "url": "//loveincorporated.blob.core.windows.net/contentimages/gallery/e70cede3-a7ae-40b5-b27f-b494a59d9b76-serenity-treehouse.jpg",
+            "details": {
+              "size": 99306,
+              "image": {
+                "width": 714,
+                "height": 263
+              }
+            },
+            "fileName": "header_house.svg",
+            "contentType": "image/svg+xml"
           }
         }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "imageassetfivepinetrees",
+        "type": "Asset",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Pine forest"
+        },
+        "description": {
+          "en-US": "5 pine trees"
+        },
+        "file": {
+          "en-US": {
+            "url": "//media.istockphoto.com/vectors/green-pine-trees-set-for-christmas-and-new-year-decoration-vector-vector-id1182515956?s=612x612",
+            "details": {
+              "size": 122719,
+              "image": {
+                "width": 465,
+                "height": 224
+              }
+            },
+            "fileName": "forest.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "imageassettwopaperairplanes",
+        "type": "Asset",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1
       },
       "fields": {
         "title": {
@@ -2748,150 +2126,18 @@
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/e92nag9kissj/imageassettwopaperairplanes/8387ae7ec7afeb4f4dcc8aad9a2d9858/airplanes.svg",
+            "url": "//64.media.tumblr.com/dcaedcb6ad0cf4a194840a52838e90b0/tumblr_neeaml806u1qgnfmgo1_500.png",
             "details": {
-              "size": 47572,
+              "size": 71344,
               "image": {
-                "width": 500,
-                "height": 411
+                "width": 412,
+                "height": 129
               }
             },
             "fileName": "airplanes.svg",
-            "contentType": "image/png"
+            "contentType": "image/svg+xml"
           }
         }
-      }
-    }
-  ],
-  "locales": [
-    {
-      "name": "English (United States)",
-      "code": "en-US",
-      "fallbackCode": null,
-      "default": true,
-      "contentManagementApi": true,
-      "contentDeliveryApi": true,
-      "optional": false,
-      "sys": {
-        "type": "Locale",
-        "id": "3eVtjRQiK7VB7X90pqlKit",
-        "version": 1,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "environment": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Environment",
-            "id": "master",
-            "uuid": "fb2761f7-6127-4758-b9b8-e2f0057c2aee"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "createdAt": "2021-06-05T19:59:09Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedAt": "2021-06-05T19:59:09Z"
-      }
-    }
-  ],
-  "webhooks": [
-  ],
-  "roles": [
-    {
-      "name": "Editor",
-      "description": "Allows editing, publishing and archiving of content",
-      "policies": [
-        {
-          "effect": "allow",
-          "actions": "all",
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Entry"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "effect": "allow",
-          "actions": "all",
-          "constraint": {
-            "and": [
-              {
-                "equals": [
-                  {
-                    "doc": "sys.type"
-                  },
-                  "Asset"
-                ]
-              }
-            ]
-          }
-        }
-      ],
-      "permissions": {
-        "ContentModel": [
-          "read"
-        ],
-        "Settings": [
-        ],
-        "ContentDelivery": [
-        ],
-        "Environments": [
-        ],
-        "EnvironmentAliases": [
-        ],
-        "Tags": [
-        ]
-      },
-      "sys": {
-        "type": "Role",
-        "id": "3eWlf1FuT1XOF7bzmFC9PH",
-        "version": 0,
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "e92nag9kissj"
-          }
-        },
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "createdAt": "2021-06-05T19:59:09Z",
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "79RF7L5UjkmFJrVCSPXsve"
-          }
-        },
-        "updatedAt": "2021-06-05T19:59:09Z"
       }
     }
   ]
