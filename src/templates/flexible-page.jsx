@@ -15,9 +15,9 @@ export default function FlexiblePage({ pageContext, data, location }) {
     <LayoutGlobal location={location}>
       <SiteMetadata title={title} />
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-          <div className="relative mb-6 sm:mx-auto md:mb-10 md:max-w-md lg:max-w-lg">
+          <div className="relative mb-6 mx-auto md:mb-10 md:max-w-md lg:max-w-lg">
             <div className="mb-16 md:mb-0 md:max-w-xl sm:mx-auto md:text-center">
-              <h1 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+              <h1 className="mb-5 font-sans text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl sm:leading-none">
                 {title}
               </h1>
             </div>

@@ -1,8 +1,8 @@
-import { graphql, Link } from "gatsby";
+import { Link } from "gatsby";
 import React from "react";
 
 export default function Card({ card }) {
-  const { title, subtitle, image, imageAltText, url } = card;
+  const { title, image, imageAltText, url } = card;
   return (
 
     <div>

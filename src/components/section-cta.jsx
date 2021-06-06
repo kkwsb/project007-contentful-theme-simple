@@ -3,8 +3,9 @@ import React from "react";
 import Action from  './action.jsx';
 
 export default function SectionCallToAction({ section }) {
-  const sectionTitleFirstWord = section.title.split(' ')[0];
-  const sectionTitleRemainingWords = section.title.split(' ').slice(1).join(' ');
+  const sectionTitleWords = section.title.split(' ');
+  const sectionTitleFirstWord = sectionTitleWords[0];
+  const sectionTitleRemainingWords = sectionTitleWords.slice(1).join(' ');
   const ActionComponents = section.actions.map((action) => {
     return <Action action={action} />
   });

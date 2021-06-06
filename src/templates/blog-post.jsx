@@ -9,8 +9,8 @@ export default function Post({ pageContext, data, location }) {
   return (
     <LayoutGlobal location={location}>
       <SiteMetadata title={title} />
-      <div className="prose py-8 px-4 mx-auto sm:max-w-xl md:max-w-full lg:py-12 lg:max-w-screen-xl">
-        <h1 className="text-center">{title}</h1>
+      <div className="prose py-8 px-4 mx-auto sm:max-w-xl md:max-w-full lg:px-8 lg:py-12 lg:max-w-screen-xl">
+      <h1 className="text-center tracking-tight">{title}</h1>
         <figure>
           <img
             src={image.file.url}

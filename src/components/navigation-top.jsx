@@ -3,7 +3,7 @@ import React from "react";
 
 export default function NavigationTop({ location }) {
   const liClassBase =
-    "text-xl font-bold tracking-wide inline-flex mx-5 px-5 py-5 hover:bg-purple-600 focus-within:bg-purple-600";
+    "inline-flex items-center justify-center group px-6 py-3 ml-6 tracking-wide text-gray-800";
   const { allSitePage } = useStaticQuery(query);
   const Links = allSitePage.nodes
     .filter((page) => {
@@ -18,24 +18,22 @@ export default function NavigationTop({ location }) {
         .replace(/^Blog(?!$)/, "");
       const liClassName =
         location.pathname === path || location.pathname === `${path}/`
-          ? `${liClassBase} bg-blue-500`
-          : liClassBase;
+          ? `${liClassBase} font-semibold`
+          : `${liClassBase} font-medium`;
       return (
         <li className={liClassName}>
-          <Link to={path} className="text-white">
+          <Link to={path} className="break-words border-b-4 border-white transition-colors duration-200 group-hover:text-indigo-500 group-hover:border-indigo-500 group-focus-within:text-indigo-500 group-focus-within:border-indigo-500">
             {newComponentName}
           </Link>
         </li>
       );
     });
   return (
-    <div className="bg-blue-900">
       <nav className="px-4 py-5 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
-        <ul className="relative flex flex-wrap items-left justify-center -mx-5">
+        <ul className="relative flex flex-wrap -mx-5">
           {Links}
         </ul>
       </nav>
-    </div>
   );
 }
 
