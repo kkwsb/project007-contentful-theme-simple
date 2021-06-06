@@ -40,7 +40,7 @@ export default function NavigationTop({ location }) {
           <rect x="14" y="1" width="7" height="6"></rect>
           <rect x="14" y="11" width="7" height="12"></rect>
         </svg>
-        <span className=" border-b-4 border-white transition-colors duration-200 hover:text-azimuth-blue-500 hover:border-azimuth-blue-500 focus:text-azimuth-blue-500 focus:border-azimuth-blue-500">{site.siteMetadata.title}</span>
+        <span className="border-b-4 border-white transition-colors duration-200 group-hover:text-azimuth-blue-500 group-hover:border-azimuth-blue-500 group-focus:text-azimuth-blue-500 group-focus:border-azimuth-blue-500">{site.siteMetadata.title}</span>
       </Link>
       <ul className="flex items-center flex-wrap ml-auto">{Links}</ul>
     </nav>

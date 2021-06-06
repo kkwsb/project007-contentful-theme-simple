@@ -5,7 +5,16 @@ export default function Card({ card }) {
   const { title, image, imageAltText, url } = card;
   return (
     <div>
-      {!!image && (
+      {!!image && !!url && (
+        <Link to={url} className="group" tabindex="-1">
+          <img
+            className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 transition duration-200 hover:opacity-50 group-focus:opacity-50"
+            src={image.file.url}
+            alt={imageAltText}
+          />
+        </Link>
+      )}
+      {!!image && !url && (
         <img
           className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
           src={image.file.url}
