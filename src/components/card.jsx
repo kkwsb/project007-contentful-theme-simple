@@ -1,4 +1,4 @@
-import { Link } from "gatsby";
+import Link from "./link.jsx";
 import React from "react";
 
 export default function Card({ card }) {

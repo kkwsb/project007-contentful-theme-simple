@@ -47,7 +47,7 @@ export default function SectionCallToAction({ section }) {
         </p>
           </div>
       </div>
-      <div className="relative flex flex-wrap items-left justify-center -ml-6">
+      <div className="relative flex flex-wrap items-left justify-center -mt-6 -ml-6">
           {ActionComponents}
       </div>
       </div>
