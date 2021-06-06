@@ -29,4 +29,4 @@ models:
     urlPath: '/{slug}'
   post:
     type: page
-    urlPath: '/{slug}'
+    urlPath: '/blog/{slug}'
