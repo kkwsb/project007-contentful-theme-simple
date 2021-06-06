@@ -6,11 +6,11 @@ import sectionComponentTypeList from "../components/index-section-components.jsx
 
 export default function FlexiblePage({ pageContext, data, location }) {
   const { title, sections, image, imageAltText } = data.item;
-  const SectionComponents = sections.map((section) => {
+  const SectionComponents = (!!sections) ? sections.map((section) => {
     const componentTypeName = section["__typename"].replace(/^Contentful/, "");
     let Component = sectionComponentTypeList[componentTypeName];
     return <Component section={section} />;
-  });
+  }) : undefined;
   return (
     <LayoutGlobal location={location}>
       <SiteMetadata title={title} />
@@ -21,6 +21,7 @@ export default function FlexiblePage({ pageContext, data, location }) {
                 {title}
               </h1>
             </div>
+            {!!image && (
             <figure>
               <img
                 src={image.file.url}
@@ -28,9 +29,12 @@ export default function FlexiblePage({ pageContext, data, location }) {
                 className="mx-auto object-cover w-12 h-12 rounded-full shadow-lg"
               />
             </figure>
+            )}
           </div>
         </div>
-      {SectionComponents}
+      {!!sections && (
+        {SectionComponents}
+      )}
     </LayoutGlobal>
   );
 }
