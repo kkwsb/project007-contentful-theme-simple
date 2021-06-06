@@ -14,13 +14,13 @@ export default function SectionHero({ section }) {
         }}
       >
         <div className="max-w-2xl px-4 py-16 mx-auto sm:max-w-xl md:max-w-2xl md:px-8">
-          <div className="relative bg-gradient-to-r from-azimuth-blue-600 to-azimuth-blue-400 bg-opacity-90">
+          <div className="relative bg-gradient-to-r from-azimuth-blue-700 to-azimuth-blue-500 bg-opacity-90">
             <div className="py-8 px-4 mx-auto sm:max-w-xl md:max-w-full lg:py-12 lg:max-w-screen-xl">
               <div className="w-full">
                 <h2 className="text-center mb-8 font-sans text-4xl font-bold tracking-tight text-white sm:text-6xl sm:leading-none">
                   {section.title}
                 </h2>
-                <p className="text-center text-xl text-azimuth-fieldstone-200">
+                <p className="text-center text-xl text-gray-200">
                   {section.subtitle}
                 </p>
               </div>
