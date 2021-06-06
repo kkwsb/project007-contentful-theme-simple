@@ -34,7 +34,7 @@ export default function NavigationTop({ location }) {
         className="inline-flex items-center group font-semibold text-xl mr-5"
         href="/"
       >
-        <svg className="border-b-4 border-white w-8 mr-1 text-azimuth-blue-400" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
+        <svg className="border-b-4 border-white w-8 mr-1 text-azimuth-blue-500" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
           <rect x="3" y="1" width="7" height="12"></rect>
           <rect x="3" y="17" width="7" height="6"></rect>
           <rect x="14" y="1" width="7" height="6"></rect>
