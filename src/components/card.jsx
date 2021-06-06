@@ -4,16 +4,20 @@ import React from "react";
 export default function Card({ card }) {
   const { title, subtitle, image, imageAltText, url } = card;
   return (
-    <div className="p-4 border rounded-lg shadow-lg">
+
+    <div>
+      {!!image && (
+        <img
+          className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+          src={image.file.url}
+          alt={imageAltText}
+        />
+      )}
       {!!title && (
-        <h3 className="text-2xl font-bold leading-none mb-8 text-center">
-          {!!url && <Link to={url}>{title}</Link>}
+        <h3 className="mb-2 text-xl font-bold leading-none sm:text-2xl">
+          {!!url && <Link to={url} className="transition-colors duration-200 hover:text-indigo-700 focus:text-indigo-700">{title}</Link>}
           {!url && title}
         </h3>
-      )}
-      {!!subtitle && <p>{subtitle}</p>}
-      {!!image && (
-        <img src={image.file.url} alt={imageAltText} className="mx-auto mb-6" />
       )}
     </div>
   );

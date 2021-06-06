@@ -14,16 +14,22 @@ export default function FlexiblePage({ pageContext, data, location }) {
   return (
     <LayoutGlobal location={location}>
       <SiteMetadata title={title} />
-      <div className="py-8 px-4 mx-auto sm:max-w-xl md:max-w-full lg:py-12 lg:max-w-screen-xl">
-        <h1 class="text-4xl font-extrabold text-center mb-8">{title}</h1>
-        <figure>
-          <img
-            src={image.file.url}
-            alt={imageAltText}
-            className="w-full max-w-screen-sm mx-auto md:w-auto lg:max-w-screen-xl"
-          />
-        </figure>
-      </div>
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="relative mb-6 sm:mx-auto md:mb-10 md:max-w-md lg:max-w-lg">
+            <div className="mb-16 md:mb-0 md:max-w-xl sm:mx-auto md:text-center">
+              <h1 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                {title}
+              </h1>
+            </div>
+            <figure>
+              <img
+                src={image.file.url}
+                alt={imageAltText}
+                className="mx-auto object-cover w-12 h-12 rounded-full shadow-lg"
+              />
+            </figure>
+          </div>
+        </div>
       {SectionComponents}
     </LayoutGlobal>
   );
