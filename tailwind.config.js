@@ -1,5 +1,5 @@
 let extendColors = {
-  azimuth-blue: {
+  "azimuth-blue": {
     DEFAULT: "#0072FF",
     50: "#E5F1FF",
     100: "#CCE3FF",
