@@ -17,7 +17,7 @@ export default function Card({ card }) {
           {!!url && (
             <Link
               to={url}
-              className="transition-colors duration-200 hover:text-indigo-700 focus:text-indigo-700"
+              className="transition-colors duration-200 hover:text-azimuth-blue-700 focus:text-azimuth-blue-700"
             >
               {title}
             </Link>

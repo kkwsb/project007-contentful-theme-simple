@@ -12,7 +12,7 @@ export default function NavigationTop({ location }) {
         <Link
           to={menuLink.link}
           activeClassName="font-semibold"
-          className="break-words block pt-1 border-b-4 border-white transition-colors duration-200 group-hover:text-indigo-500 group-hover:border-indigo-500 group-focus-within:text-indigo-500 group-focus-within:border-indigo-500"
+          className="break-words block pt-1 border-b-4 border-white transition-colors duration-200 group-hover:text-azimuth-blue-500 group-hover:border-azimuth-blue-500 group-focus-within:text-azimuth-blue-500 group-focus-within:border-azimuth-blue-500"
         >
           {menuLink.name}
         </Link>
@@ -31,7 +31,7 @@ export default function NavigationTop({ location }) {
       </a>
       <Link
         to="/"
-        className="font-semibold text-xl mr-5 border-b-4 border-white transition-colors duration-200 hover:text-indigo-500 hover:border-indigo-500 focus:text-indigo-500 focus:border-indigo-500"
+        className="font-semibold text-xl mr-5 border-b-4 border-white transition-colors duration-200 hover:text-azimuth-blue-500 hover:border-azimuth-blue-500 focus:text-azimuth-blue-500 focus:border-azimuth-blue-500"
         href="/"
       >
         {site.siteMetadata.title}
