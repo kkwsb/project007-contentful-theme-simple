@@ -906,10 +906,10 @@
       },
       "fields": {
         "text": {
-          "en-US": "Dream big"
+          "en-US": "Get started"
         },
         "url": {
-          "en-US": "https://jamstack.new"
+          "en-US": "https://stackbit.com/docs/quick-start"
         }
       }
     },
@@ -953,7 +953,7 @@
           "en-US": "Learn more"
         },
         "url": {
-          "en-US": "https://stackbit.com/blog"
+          "en-US": "https://stackbit.com/docs"
         }
       }
     },
