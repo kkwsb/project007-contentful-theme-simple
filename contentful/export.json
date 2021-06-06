@@ -1032,7 +1032,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "sectionherobeoneflyairplane",
+        "id": "sectionherobigheadline",
         "type": "Entry",
         "environment": {
           "sys": {
@@ -1056,22 +1056,22 @@
       },
       "fields": {
         "title": {
-          "en-US": "Be your own hero"
+          "en-US": "This Is A Big Hero Headline"
         },
         "subtitle": {
-          "en-US": "And encourage others to do the same"
+          "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Nullam a metus quis lorem malesuada luctus."
         },
         "image": {
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "imageassetpaperairplaneillustration"
+              "id": "imageassetconferencepresentation"
             }
           }
         },
         "imageAltText": {
-          "en-US": "A paper airplane illustration"
+          "en-US": "A man presents on a large screen at a conference"
         }
       }
     },
@@ -1122,12 +1122,12 @@
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "imageassethousetree"
+              "id": "imageassetdoorpaintedhello"
             }
           }
         },
         "imageAltText": {
-          "en-US": "An illustration of a house and a tree"
+          "en-US": "A photograph of a door painted with the word \"Hello\""
         },
         "sections": {
           "en-US": [
@@ -1135,7 +1135,7 @@
               "sys": {
                 "type": "Link",
                 "linkType": "Entry",
-                "id": "sectionherobeoneflyairplane"
+                "id": "sectionherobigheadline"
               }
             },
             {
@@ -1196,12 +1196,12 @@
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "imageassetpaperairplaneillustration"
+              "id": "imageassethandsonphone"
             }
           }
         },
         "imageAltText": {
-          "en-US": "A flying paper airplane illustration"
+          "en-US": "A person, whose face is not shown, uses a smartphone"
         },
         "sections": {
           "en-US": [
@@ -1441,7 +1441,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "postbunkbed",
+        "id": "postproductiveteam",
         "type": "Entry",
         "environment": {
           "sys": {
@@ -1465,22 +1465,22 @@
       },
       "fields": {
         "title": {
-          "en-US": "Building a bunk bed"
+          "en-US": "Managing a Team Productively"
         },
         "slug": {
-          "en-US": "bunk-bed"
+          "en-US": "managing-team-productively"
         },
         "image": {
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "imageassetfivepinetrees"
+              "id": "imageassetgrouparoundlaptop"
             }
           }
         },
         "imageAltText": {
-          "en-US": "Five pine trees"
+          "en-US": "Colleagues gather around a laptop"
         },
         "body": {
           "en-US": {
@@ -1493,7 +1493,7 @@
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "To build a bunk bed, you'll need some wood.",
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Teneo, inquit, finem illi videri nihil dolere. Quid est enim aliud esse versutum. Age, inquies, ista parva sunt. Verum hoc idem saepe faciamus. Atque ab his initiis profecti omnium virtutum et originem et progressionem persecuti sunt. Duo Reges: constructio interrete. Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Estne, quaeso, inquam, sitienti in bibendo voluptas? Iam in altera philosophiae parte. Quem Tiberina descensio festo illo die tanto gaudio affecit, quanto L.",
                     "marks": [
                     ],
                     "data": {
@@ -1504,12 +1504,92 @@
                 }
               },
               {
-                "nodeType": "paragraph",
+                "nodeType": "unordered-list",
                 "content": [
                   {
-                    "nodeType": "text",
-                    "value": "It can really improve the flow of your home.",
-                    "marks": [
+                    "nodeType": "list-item",
+                    "content": [
+                      {
+                        "nodeType": "paragraph",
+                        "content": [
+                          {
+                            "nodeType": "text",
+                            "value": "Restinguet citius, si ardentem acceperit.",
+                            "marks": [
+                            ],
+                            "data": {
+                            }
+                          }
+                        ],
+                        "data": {
+                        }
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "list-item",
+                    "content": [
+                      {
+                        "nodeType": "paragraph",
+                        "content": [
+                          {
+                            "nodeType": "text",
+                            "value": "Te enim iudicem aequum puto, modo quae dicat ille bene noris.",
+                            "marks": [
+                            ],
+                            "data": {
+                            }
+                          }
+                        ],
+                        "data": {
+                        }
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "list-item",
+                    "content": [
+                      {
+                        "nodeType": "paragraph",
+                        "content": [
+                          {
+                            "nodeType": "text",
+                            "value": "Quid, quod homines infima fortuna, nulla spe rerum gerendarum, opifices denique delectantur historia?",
+                            "marks": [
+                            ],
+                            "data": {
+                            }
+                          }
+                        ],
+                        "data": {
+                        }
+                      }
+                    ],
+                    "data": {
+                    }
+                  },
+                  {
+                    "nodeType": "list-item",
+                    "content": [
+                      {
+                        "nodeType": "paragraph",
+                        "content": [
+                          {
+                            "nodeType": "text",
+                            "value": "Quo minus animus a se ipse dissidens secumque discordans gustare partem ullam liquidae voluptatis et liberae potest.",
+                            "marks": [
+                            ],
+                            "data": {
+                            }
+                          }
+                        ],
+                        "data": {
+                        }
+                      }
                     ],
                     "data": {
                     }
@@ -1525,7 +1605,7 @@
                 "data": {
                   "target": {
                     "sys": {
-                      "id": "imageassethousetree",
+                      "id": "imageassetwomansmilingwithphone",
                       "type": "Link",
                       "linkType": "Asset"
                     }
@@ -1537,78 +1617,18 @@
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "It's really great if you can get some wood without too many knots in it.",
+                    "value": "Quippe: habes enim a rhetoribus;",
                     "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "blockquote",
-                "content": [
-                  {
-                    "nodeType": "paragraph",
-                    "content": [
                       {
-                        "nodeType": "text",
-                        "value": "Do ",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
-                      },
-                      {
-                        "nodeType": "text",
-                        "value": "not",
-                        "marks": [
-                          {
-                            "type": "bold"
-                          }
-                        ],
-                        "data": {
-                        }
-                      },
-                      {
-                        "nodeType": "text",
-                        "value": " get knots!",
-                        "marks": [
-                        ],
-                        "data": {
-                        }
+                        "type": "bold"
                       }
                     ],
                     "data": {
                     }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
+                  },
                   {
                     "nodeType": "text",
-                    "value": "This needs to be sturdy, after all.",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "",
+                    "value": " Vos autem cum perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere. Hoc dixerit potius Ennius: Nimium boni est, cui nihil est mali. Sic consequentibus vestris sublatis prima tolluntur. Negat esse eam, inquit, propter se expetendam. Ergo, si semel tristior effectus est, hilara vita amissa est.",
                     "marks": [
                     ],
                     "data": {
@@ -1636,7 +1656,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "postwinningpaperairplanecontest",
+        "id": "posttimewhatsimportant",
         "type": "Entry",
         "environment": {
           "sys": {
@@ -1660,145 +1680,166 @@
       },
       "fields": {
         "title": {
-          "en-US": "Winning a paper airplane contest"
+          "en-US": "Making Time for What's Important"
         },
         "slug": {
-          "en-US": "winning-a-paper-airplane-contest"
+          "en-US": "making-time-important"
         },
         "image": {
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "imageassettwopaperairplanes"
+              "id": "imageassetsmilingmansmartphone"
             }
           }
         },
         "imageAltText": {
-          "en-US": "Two paper airplanes:  an illustration"
+          "en-US": "A smiling man uses a smartphone in an office"
         },
         "body": {
           "en-US": {
-            "nodeType": "document",
             "data": {
             },
             "content": [
               {
-                "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
-                    "nodeType": "text",
-                    "value": "You need:",
+                    "data": {
+                    },
                     "marks": [
                     ],
-                    "data": {
-                    }
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Teneo, inquit, finem illi videri nihil dolere. Quid est enim aliud esse versutum. Age, inquies, ista parva sunt. Verum hoc idem saepe faciamus. Atque ab his initiis profecti omnium virtutum et originem et progressionem persecuti sunt. Duo Reges: constructio interrete. Itaque eos id agere, ut a se dolores, morbos, debilitates repellant. Estne, quaeso, inquam, sitienti in bibendo voluptas? Iam in altera philosophiae parte. Quem Tiberina descensio festo illo die tanto gaudio affecit, quanto L.",
+                    "nodeType": "text"
                   }
                 ],
-                "data": {
-                }
+                "nodeType": "paragraph"
               },
               {
-                "nodeType": "ordered-list",
+                "data": {
+                },
                 "content": [
                   {
-                    "nodeType": "list-item",
+                    "data": {
+                    },
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {
+                        },
                         "content": [
                           {
-                            "nodeType": "text",
-                            "value": "Paper",
+                            "data": {
+                            },
                             "marks": [
                             ],
-                            "data": {
-                            }
+                            "value": "Restinguet citius, si ardentem acceperit.",
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {
-                        }
+                        "nodeType": "paragraph"
                       }
                     ],
-                    "data": {
-                    }
+                    "nodeType": "list-item"
                   },
                   {
-                    "nodeType": "list-item",
+                    "data": {
+                    },
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {
+                        },
                         "content": [
                           {
-                            "nodeType": "text",
-                            "value": "A way to fold the paper",
+                            "data": {
+                            },
                             "marks": [
                             ],
-                            "data": {
-                            }
+                            "value": "Te enim iudicem aequum puto, modo quae dicat ille bene noris.",
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {
-                        }
+                        "nodeType": "paragraph"
                       }
                     ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "And ",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "nodeType": "list-item"
                   },
                   {
-                    "nodeType": "text",
-                    "value": "flyyyyyyy",
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Quid, quod homines infima fortuna, nulla spe rerum gerendarum, opifices denique delectantur historia?",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Quo minus animus a se ipse dissidens secumque discordans gustare partem ullam liquidae voluptatis et liberae potest.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
                     "marks": [
                       {
-                        "type": "italic"
+                        "type": "bold"
                       }
                     ],
-                    "data": {
-                    }
+                    "value": "Quippe: habes enim a rhetoribus;",
+                    "nodeType": "text"
                   },
                   {
-                    "nodeType": "text",
-                    "value": "!",
+                    "data": {
+                    },
                     "marks": [
                     ],
-                    "data": {
-                    }
+                    "value": " Vos autem cum perspicuis dubia debeatis illustrare, dubiis perspicua conamini tollere. Hoc dixerit potius Ennius: Nimium boni est, cui nihil est mali. Sic consequentibus vestris sublatis prima tolluntur. Negat esse eam, inquit, propter se expetendam. Ergo, si semel tristior effectus est, hilara vita amissa est.",
+                    "nodeType": "text"
                   }
                 ],
-                "data": {
-                }
-              },
-              {
-                "nodeType": "paragraph",
-                "content": [
-                  {
-                    "nodeType": "text",
-                    "value": "",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
-                  }
-                ],
-                "data": {
-                }
+                "nodeType": "paragraph"
               }
-            ]
+            ],
+            "nodeType": "document"
           }
         }
       }
@@ -1816,7 +1857,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "postjustatestblogpost",
+        "id": "posttimemanagementhappiness",
         "type": "Entry",
         "environment": {
           "sys": {
@@ -1840,45 +1881,227 @@
       },
       "fields": {
         "title": {
-          "en-US": "test"
+          "en-US": "Time Management and Happiness"
         },
         "slug": {
-          "en-US": "test-blog"
+          "en-US": "time-management-happiness"
         },
         "image": {
           "en-US": {
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "imageassetpugdog"
+              "id": "imageassettwopeoplelaughing"
             }
           }
         },
         "imageAltText": {
-          "en-US": "doggo"
+          "en-US": "Two coworkers laugh together in an office"
         },
         "body": {
           "en-US": {
-            "nodeType": "document",
             "data": {
             },
             "content": [
               {
-                "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
-                    "nodeType": "text",
-                    "value": "srsly",
+                    "data": {
+                    },
                     "marks": [
                     ],
-                    "data": {
-                    }
+                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Negat esse eam, inquit, propter se expetendam. Nam de isto magna dissensio est. Nullum inveniri verbum potest quod magis idem declaret Latine, quod Graece, quam declarat voluptas. Idemne potest esse dies saepius, qui semel fuit? Non est ista, inquam, Piso, magna dissensio. Ita multo sanguine profuso in laetitia et in victoria est mortuus. Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Duo Reges: constructio interrete.",
+                    "nodeType": "text"
                   }
                 ],
+                "nodeType": "paragraph"
+              },
+              {
                 "data": {
-                }
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Quae diligentissime contra Aristonem dicuntur a Chryippo. Videamus igitur sententias eorum, tum ad verba redeamus. Levatio igitur vitiorum magna fit in iis, qui habent ad virtutem progressionis aliquantum. Virtutis, magnitudinis animi, patientiae, fortitudinis fomentis dolor mitigari solet. Nihil enim hoc differt. Quorum sine causa fieri nihil putandum est.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Sed Nimis Multa",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "An potest cupiditas finiri? Quamquam te quidem video minime esse deterritum. Sit, inquam, tam facilis, quam vultis, comparatio voluptatis, quid de dolore dicemus? Quae qui non vident, nihil umquam magnum ac cognitione dignum amaverunt.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "marks": [
+                        ],
+                        "value": "Ita est quoddam commune officium sapientis et insipientis, ex quo efficitur versari in iis, quae media dicamus.",
+                        "nodeType": "text"
+                      }
+                    ],
+                    "nodeType": "paragraph"
+                  }
+                ],
+                "nodeType": "blockquote"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Omnes enim iucundum motum, quo sensus hilaretur. Hoc est non dividere, sed frangere. Sed ne, dum huic obsequor, vobis molestus sim. Efficiens dici potest. Quia dolori non voluptas contraria est, sed doloris privatio. Quid dubitas igitur mutare principia naturae? Atqui eorum nihil est eius generis, ut sit in fine atque extrerno bonorum. Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me vocas, eum. Sed tu istuc dixti bene Latine, parum plane.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Unum nescio, quo modo possit, si luxuriosus sit, finitas cupiditates habere. ",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                      {
+                        "type": "bold"
+                      }
+                    ],
+                    "value": "Audeo dicere, inquit.",
+                    "nodeType": "text"
+                  },
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " Perturbationes autem nulla naturae vi commoventur, omniaque ea sunt opiniones ac iudicia levitatis. Nunc haec primum fortasse audientis servire debemus. Nihil ad rem! Ne sit sane; Et certamen honestum et disputatio splendida! omnis est enim de virtutis dignitate contentio. Quonam, inquit, modo? Nullum inveniri verbum potest quod magis idem declaret Latine, quod Graece, quam declarat voluptas. Hoc ille tuus non vult omnibusque ex rebus voluptatem quasi mercedem exigit.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Fortitudinis quaedam praecepta sunt ac paene leges, quae effeminari - virum vetant in dolore.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Non igitur bene.",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Maximas vero virtutes iacere omnis necesse est voluptate dominante.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
               }
-            ]
+            ],
+            "nodeType": "document"
           }
         }
       }
@@ -1898,7 +2121,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "imageassetpugdog",
+        "id": "imageassettwopeoplelaughing",
         "type": "Asset",
         "environment": {
           "sys": {
@@ -1915,14 +2138,116 @@
       },
       "fields": {
         "title": {
-          "en-US": "Pug dog illustration"
+          "en-US": "Laughing coworkers"
         },
         "description": {
-          "en-US": "An illustration of a dog made out of circles"
+          "en-US": "A man and a woman laugh together in an office"
         },
         "file": {
           "en-US": {
-            "url": "//s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/12225358/Pug-On-White-01.jpg",
+            "url": "//themes.stackbit.com/demos/startup/images/post-2.jpg",
+            "details": {
+              "size": 89471,
+              "image": {
+                "width": 1200,
+                "height": 800
+              }
+            },
+            "fileName": "laughing-coworkers.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "imageassetconferencepresentation",
+        "type": "Asset",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "Conference presentation"
+        },
+        "description": {
+          "en-US": "A man stands on a stage, giving a conference presentation"
+        },
+        "file": {
+          "en-US": {
+            "url": "//themes.stackbit.com/demos/event/images/hero-background.jpg",
+            "details": {
+              "size": 222717,
+              "image": {
+                "width": 1200,
+                "height": 675
+              }
+            },
+            "fileName": "bw-conference-presentation.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zyxcba"
+          }
+        },
+        "id": "imageassetdoorpaintedhello",
+        "type": "Asset",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2021-01-01T00:00:00.000Z",
+        "firstPublishedAt": "2021-01-01T00:00:00.000Z",
+        "publishedCounter": 1,
+        "version": 1
+      },
+      "fields": {
+        "title": {
+          "en-US": "A door painted \"Hello\""
+        },
+        "description": {
+          "en-US": "A door vibrantly painted with the word \"Hello\""
+        },
+        "file": {
+          "en-US": {
+            "url": "//themes.stackbit.com/demos/exto/images/8.jpg",
             "details": {
               "size": 37837,
               "image": {
@@ -1930,8 +2255,8 @@
                 "height": 253
               }
             },
-            "fileName": "dog.svg",
-            "contentType": "image/svg+xml"
+            "fileName": "hello-door.jpg",
+            "contentType": "image/jpeg"
           }
         }
       }
@@ -1949,7 +2274,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "imageassetpaperairplaneillustration",
+        "id": "imageassethandsonphone",
         "type": "Asset",
         "environment": {
           "sys": {
@@ -1966,23 +2291,16 @@
       },
       "fields": {
         "title": {
-          "en-US": "Wide paper airplane"
+          "en-US": "Hands on a phone"
         },
         "description": {
-          "en-US": "An illustration of a paper airplane, flying left to right"
+          "en-US": "A pair of hands using a phone, with the user's face not shown"
         },
         "file": {
           "en-US": {
-            "url": "//encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHwB0dGdIoOn80GDMP1GX0GG_-PryH_eH9HuvjAk_nI3Jqr5hXaNwthd8atfhDWFsvYpkUhUy4&usqp=CAc",
-            "details": {
-              "size": 31996,
-              "image": {
-                "width": 510,
-                "height": 142
-              }
-            },
-            "fileName": "header_paper_airplane.svg",
-            "contentType": "image/svg+xml"
+            "url": "//themes.stackbit.com/demos/app/images/post-5.jpg",
+            "fileName": "hands_on_phone.jpg",
+            "contentType": "image/jpeg"
           }
         }
       }
@@ -2000,7 +2318,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "imageassethousetree",
+        "id": "imageassetwomansmilingwithphone",
         "type": "Asset",
         "environment": {
           "sys": {
@@ -2017,23 +2335,23 @@
       },
       "fields": {
         "title": {
-          "en-US": "House illustration"
+          "en-US": "Smiling woman holding a smartphone"
         },
         "description": {
-          "en-US": "It's a doodle of a house"
+          "en-US": "A smiling woman look at the camera, holding a smartphone"
         },
         "file": {
           "en-US": {
-            "url": "//loveincorporated.blob.core.windows.net/contentimages/gallery/e70cede3-a7ae-40b5-b27f-b494a59d9b76-serenity-treehouse.jpg",
+            "url": "//themes.stackbit.com/demos/app/images/post-4.jpg",
             "details": {
-              "size": 99306,
+              "size": 92424,
               "image": {
-                "width": 714,
-                "height": 263
+                "width": 800,
+                "height": 533
               }
             },
-            "fileName": "header_house.svg",
-            "contentType": "image/svg+xml"
+            "fileName": "smiling-woman-phone.jpg",
+            "contentType": "image/jpeg"
           }
         }
       }
@@ -2051,7 +2369,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "imageassetfivepinetrees",
+        "id": "imageassetgrouparoundlaptop",
         "type": "Asset",
         "environment": {
           "sys": {
@@ -2068,23 +2386,23 @@
       },
       "fields": {
         "title": {
-          "en-US": "Pine forest"
+          "en-US": "Laptop collaboration"
         },
         "description": {
-          "en-US": "5 pine trees"
+          "en-US": "A group of people in an office environment look at a laptop together"
         },
         "file": {
           "en-US": {
-            "url": "//media.istockphoto.com/vectors/green-pine-trees-set-for-christmas-and-new-year-decoration-vector-vector-id1182515956?s=612x612",
+            "url": "//themes.stackbit.com/demos/startup/images/post-5.jpg",
             "details": {
-              "size": 122719,
+              "size": 86453,
               "image": {
-                "width": 465,
-                "height": 224
+                "width": 1280,
+                "height": 853
               }
             },
-            "fileName": "forest.svg",
-            "contentType": "image/svg+xml"
+            "fileName": "team-around-laptop.jpg",
+            "contentType": "image/jpeg"
           }
         }
       }
@@ -2102,7 +2420,7 @@
             "id": "zyxcba"
           }
         },
-        "id": "imageassettwopaperairplanes",
+        "id": "imageassetsmilingmansmartphone",
         "type": "Asset",
         "environment": {
           "sys": {
@@ -2119,23 +2437,23 @@
       },
       "fields": {
         "title": {
-          "en-US": "Illustration of 2 paper airplanes"
+          "en-US": "Smiling man using a smartphone"
         },
         "description": {
-          "en-US": "Both paper airplanes are flying right"
+          "en-US": "A man smiles at an office desk as he uses a smartphone"
         },
         "file": {
           "en-US": {
             "url": "//64.media.tumblr.com/dcaedcb6ad0cf4a194840a52838e90b0/tumblr_neeaml806u1qgnfmgo1_500.png",
             "details": {
-              "size": 71344,
+              "size": 33841,
               "image": {
-                "width": 412,
-                "height": 129
+                "width": 800,
+                "height": 533
               }
             },
-            "fileName": "airplanes.svg",
-            "contentType": "image/svg+xml"
+            "fileName": "smiling-man-smartphone.jpg",
+            "contentType": "image/jpeg"
           }
         }
       }
