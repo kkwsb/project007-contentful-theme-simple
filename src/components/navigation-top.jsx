@@ -34,12 +34,6 @@ export default function NavigationTop({ location }) {
         className="inline-flex items-center group font-semibold text-xl mr-5"
         href="/"
       >
-        <svg className="border-b-4 border-white w-8 mr-1 text-azimuth-blue-500" viewBox="0 0 24 24" stroke-linejoin="round" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke="currentColor" fill="none">
-          <rect x="3" y="1" width="7" height="12"></rect>
-          <rect x="3" y="17" width="7" height="6"></rect>
-          <rect x="14" y="1" width="7" height="6"></rect>
-          <rect x="14" y="11" width="7" height="12"></rect>
-        </svg>
         <span className="border-b-4 border-white transition-colors duration-200 group-hover:text-azimuth-blue-500 group-hover:border-azimuth-blue-500 group-focus:text-azimuth-blue-500 group-focus:border-azimuth-blue-500">{site.siteMetadata.title}</span>
       </Link>
       <ul className="flex items-center flex-wrap ml-auto">{Links}</ul>
