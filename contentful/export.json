@@ -994,10 +994,10 @@
       },
       "fields": {
         "title": {
-          "en-US": "Next steps"
+          "en-US": "Dismantle this theme"
         },
         "subtitle": {
-          "en-US": "Brico, French for \"do-it-yourself,\" is a minimalist theme for developer education.  Concise, componentized, and SEO-friendly."
+          "en-US": "Quick Start is a minimalist theme for developer education.  Concise, componentized, and SEO-friendly."
         },
         "actions": {
           "en-US": [

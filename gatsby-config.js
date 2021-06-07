@@ -9,7 +9,7 @@ if (!CONTENTFUL_SPACE_ID || !CONTENTFUL_ACCESS_TOKEN) {
 
 module.exports = {
     siteMetadata: {
-        title: 'Brico',
+        title: 'Quick Start',
         menuLinks:[
             {
                 name:'Home',
