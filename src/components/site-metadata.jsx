@@ -15,7 +15,7 @@ const SiteMetadata = ({ title, description, image }) => {
       <meta name="viewport" content="width=device-width,initial-scale=1" />
       <meta name="description" content={description} />
       <meta property="og:type" content="website" />
-      <meta property="og:title" content={title} />
+      <meta property="og:title" content={titleTemplate} />
       <meta property="og:locale" content="en-US" />
       <meta
         property="og:site_name"
@@ -23,7 +23,7 @@ const SiteMetadata = ({ title, description, image }) => {
       />
       <meta property="og:image" content={previewImage} />
       <meta property="og:description" content={description} />
-      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:image" content={previewImage} />
     </Helmet>
   );
