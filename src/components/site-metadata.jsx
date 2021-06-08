@@ -3,12 +3,13 @@ import { Helmet } from "react-helmet";
 import PropTypes from "prop-types";
 
 const SiteMetadata = ({ title, description, image }) => {
+  const previewImage = !!image ? image : "https://www.stackbit.com/images/stackbit.png";
   return (
     <Helmet
       defer={false}
-      defaultTitle="You forgot to provide a site title"
+      defaultTitle="Stackbit Quick Start"
       title={title}
-      titleTemplate={`%s | "You forgot to provide a site title"`}
+      titleTemplate={`%s | "Stackbit Quick Start"`}
     >
       <html lang="en-US" />
       <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -20,10 +21,10 @@ const SiteMetadata = ({ title, description, image }) => {
         property="og:site_name"
         content="You forgot to provide a site title"
       />
-      <meta property="og:image" content={image} />
+      <meta property="og:image" content={previewImage} />
       <meta property="og:description" content={description} />
       <meta name="twitter:card" content="summary" />
-      <meta name="twitter:image" content={image} />
+      <meta name="twitter:image" content={previewImage} />
     </Helmet>
   );
 };
