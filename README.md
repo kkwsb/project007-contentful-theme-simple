@@ -2,7 +2,7 @@
 
 Welcome to Stackbit's "Quick Start" theme, built with [Gatsby](https://gatsbyjs.com) and powered by [Contentful](https://www.contentful.com).
 
-Quick Start is a concise, componentized theme for developer education.  We you to learn by changing it.  The only "magic files" that you might not find in a typical theme are:
+Quick Start is a concise, componentized theme for developer education.  We encourage you to learn by changing it.  The only "magic files" that you might not find in a typical theme are:
 
 1. `stackbit.yaml` explains the theme to Stackbit.
 
