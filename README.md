@@ -11,13 +11,13 @@ Quick Start is a concise, componentized theme for developer education.  We encou
 Click the button below to create a new website from this theme using Stackbit:
 
 <p align="center">
-  <a href="https://app.stackbit.com/create?theme=https://github.com/kkwsb/project007-contentful-theme-simple&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
+  <a href="https://app.stackbit.com/create?theme=https://github.com/rylandstackbit/quick-start-gatsby-contentful&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes"><img alt="Create with Stackbit" src="https://assets.stackbit.com/badge/create-with-stackbit.svg"/></a>
 </p>
 
 
 ## Quick Start 🏎
 
-[Create a site](https://app.stackbit.com/create?theme=https://github.com/kkwsb/project007-contentful-theme-simple&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
+[Create a site](https://app.stackbit.com/create?theme=https://github.com/rylandstackbit/quick-start-gatsby-contentful&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
 
 Stackbit will execute following steps for you:
 
@@ -54,7 +54,7 @@ If you need a hand, make sure to check the [Stackbit support page](https://stack
 
 ## Develop Locally
 
-1. [Create a site](https://app.stackbit.com/create?theme=https://github.com/kkwsb/project007-contentful-theme-simple&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
+1. [Create a site](https://app.stackbit.com/create?theme=https://github.com/rylandstackbit/quick-start-gatsby-contentful&utm_source=theme-readme&utm_medium=referral&utm_campaign=stackbit_themes) from this theme using Stackbit.
 
 1. Stackbit will create a new GitHub repository, a [Contentful](https://www.contentful.com) project, and deploy the site via the selected serverless deployment platform (e.g., [Netlify](https://www.netlify.com)).
 
