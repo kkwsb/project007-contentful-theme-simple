@@ -1,6 +1,6 @@
 # ✨ Quick Start Gatsby Contentful Theme ✨
 
-This Stackbit's "Quick Start" theme, built with [Gatsby](https://gatsbyjs.com) and powered by [Contentful](https://www.contentful.com).
+Welcome to Stackbit's "Quick Start" theme, built with [Gatsby](https://gatsbyjs.com) and powered by [Contentful](https://www.contentful.com).
 
 Quick Start is a concise, componentized theme for developer education.  We you to learn by changing it.  The only "magic files" that you might not find in a typical theme are:
 
