@@ -82,53 +82,6 @@ If you need a hand, make sure to check the [Stackbit support page](https://stack
 1. When you're ready to see your changes in Stackbit, push them back to the `preview` branch of the GitHub-hosted repository you cloned.
 
 
-## Contributing 🙏
-
-To contribute to this theme please follow the following steps:
-
-1. Clone this repository locally
-
-1. Create a new Space in Contentful
-
-1. Create new Contentful Personal Access Tokens [here](https://app.contentful.com/account/profile/cma_tokens/)
-
-1. Install dependencies
-
-        npm install
-
-1. Import Contentful data stored in `contentful/export.json` to the new space by running the following command. Replace the `<management_token>` placeholder with your Personal Access Token and the `<space_id>` placeholder with the new space ID.
-
-   ```shell
-   ./contentful/import.js <management_token> <space_id>
-   ```
-
-1. Create "Content Delivery API - Access Token" via Contentful app "Settings" => "API Keys" => "Content delivery / preview tokens" => "Add API Key".
-
-1. Define following environment variables to allow Gatsby to fetch the content
-   from Contentful when developing or building the site. Replace {SPACE_ID} with your Space ID and {CDA} with the mew Content Delivery API - access token.
-
-   ```
-   export CONTENTFUL_SPACE_ID={SPACE_ID}
-   export CONTENTFUL_ACCESS_TOKEN={CDA}
-   ```
-
-1. Lastly, run the development server (from project folder):
-
-        npm run develop
-
-   Navigate to [http://localhost:8000](http://localhost:8000) to see the site.
-   Update site code, and the content in Contentful.
-   
-
-1. Once you finish updating the code and contents, export the contents back to the `contentful/export.json` file by running the following command. Replace the `<management_token>` placeholder with your Personal Access Token and the `<space_id>` placeholder with the new space ID.
-
-   ```shell
-   ./contentful/export.js <management_token> <space_id>
-   ```
-
-1. Commit, push, and submit a pull-request 🎉
-
-
 ## Learn More 📚
 
 To learn more about Stackbit, take a look at the following resources:
